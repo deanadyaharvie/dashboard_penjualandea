@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Data Penjualan 2023</h1>
+        </header>
+
+        <section class="charts">
+            <div class="chart-container">
+                <h2>Diagram Batang</h2>
+                <canvas id="barChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Diagram Garis</h2>
+                <canvas id="lineChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Diagram Lingkaran</h2>
+                <canvas id="pieChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Diagram Pencar</h2>
+                <canvas id="scatterChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Diagram Peta</h2>
+                <div id="map"></div> <!-- Placeholder for Map -->
+            </div>
+            <div class="chart-container">
+                <h2>Diagram Lambang (Piktogram)</h2>
+                <div id="pictogram"> <!-- Placeholder for Piktogram -->
+                    <img src="path_to_piktogram_image" alt="Piktogram example" />
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2023 E-commerce Dashboard</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
